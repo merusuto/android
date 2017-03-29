@@ -126,7 +126,7 @@ public class MainActivity extends Activity {
             break;
           case R.id.menu_clouddisk_url:
             try {
-              String url = "http://bbtfr.github.io/MerusutoChristina/jump/clouddisk.html";
+              String url = "https://merusuto.github.io/jump/clouddisk.html";
               Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
               MainActivity.this.startActivity(intent);
             } catch (Exception e) {
@@ -136,7 +136,7 @@ public class MainActivity extends Activity {
             break;
           case R.id.menu_about:
             try {
-              String url = "http://bbtfr.github.io/MerusutoChristina/jump/about.html";
+              String url = "https://merusuto.github.io/jump/about.html";
               Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
               MainActivity.this.startActivity(intent);
             } catch (Exception e) {
@@ -415,6 +415,8 @@ public class MainActivity extends Activity {
       case R.id.menu_skin_1:
       case R.id.menu_skin_2:
       case R.id.menu_skin_3:
+      case R.id.menu_skin_4:
+      case R.id.menu_skin_5:
         mUnitListFragment.setSkin(item.getOrder());
         setMenuItemEnabledEx(R.id.menu_skin, item);
         break;

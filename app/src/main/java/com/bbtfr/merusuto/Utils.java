@@ -251,7 +251,7 @@ public class Utils {
 
                   new AlertDialog.Builder(context)
                           .setTitle("应用更新")
-                          .setMessage("检测到新版本梅露可图鉴，是否更新？")
+                          .setMessage("检测到新版本梅露可图鉴，是否更新？\n*安装失败请点击左侧栏帮助")
                           .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
                             @Override

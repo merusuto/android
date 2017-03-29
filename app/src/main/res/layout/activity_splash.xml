@@ -43,7 +43,7 @@
       android:layout_height="wrap_content"
       android:gravity="center_horizontal"
       android:textSize="18dp"
-      android:text="V 1.5.6"
+      android:text="V 1.5.8"
       android:textColor="#fff"
       android:textIsSelectable="false"
       android:layout_marginBottom="20dp"

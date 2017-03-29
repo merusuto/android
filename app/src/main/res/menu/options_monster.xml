@@ -12,7 +12,13 @@
         android:title="稀有度" />
       <item
           android:id="@+id/menu_sort_sklmax"
-          android:title="极限值" />
+          android:title="技能极限" />
+      <item
+          android:id="@+id/menu_sort_atk"
+          android:title="最大攻击" />
+      <item
+          android:id="@+id/menu_sort_life"
+          android:title="最大体力" />
       <item
         android:id="@+id/menu_sort_aarea"
         android:title="攻击距离" />

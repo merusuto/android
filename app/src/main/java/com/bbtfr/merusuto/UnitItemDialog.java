@@ -217,17 +217,17 @@ public class UnitItemDialog extends Dialog {
         nameView.setText(item.name);
 
         textView = (TextView) detailView.findViewById(R.id.text_1);
-        textView.setText(String.format("攻距: %d\n韧性: %d\n移速: %d\n溅射距离: %d",
-                item.aarea, item.tenacity, item.mspd, item.sarea));
+        textView.setText(String.format("最大生命: %d\n攻距: %d\n韧性: %d\n移速: %d\n溅射距离: %d",
+                item.life,item.aarea, item.tenacity, item.mspd, item.sarea));
 
         textView = (TextView) detailView.findViewById(R.id.text_2);
-        textView.setText(String.format("攻数: %d\n多段: %d\n皮肤: %s\n攻速: %.2f",
-             item.anum, item.hits, item.getSkinString(), item.aspd));
+        textView.setText(String.format("最大攻击: %d\n攻数: %d\n多段: %d\n皮肤: %s\n攻速: %.2f",
+                item.atk,item.anum, item.hits, item.getSkinString(), item.aspd));
         detailView.findViewById(R.id.text_layout3).setVisibility(View.GONE);
         detailView.findViewById(R.id.text_7).setVisibility(View.GONE);
 
         textView = (TextView) detailView.findViewById(R.id.text_8);
-        textView.setText(String.format("技能: %s\n技能SP: %d\n技能CD: %d",
+        textView.setText(String.format("技能: %s\n技能SP: %d\n技能CD: %d\n",
             item.skill, item.sklsp, item.sklcd));
 
         textView = (TextView) detailView.findViewById(R.id.text_9);

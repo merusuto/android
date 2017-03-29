@@ -36,7 +36,7 @@
 	  <item
           android:id="@+id/menu_clouddisk_url"
           android:icon="@drawable/cloud64"
-          android:title="     网盘地址"></item>
+          android:title="     图包下载"></item>
       <item
           android:id="@+id/menu_delete_data"
           android:icon="@drawable/delete64"

@@ -98,6 +98,7 @@ public class UnitItem {
     this.sklcd = getIntValue(json, "sklcd");
     this.skill = getString(json, "skill");
     this.sklmax = getFloatValue(json, "sklmax");
+    this.sarea = getIntValue(json, "sarea");;
 
     this.obtain = getString(json, "obtain");
     this.remark = getString(json, "remark");

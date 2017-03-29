@@ -28,8 +28,8 @@ public class DataManager {
 
   final static long EXPIRATION = 3600000L;
   //  final static long EXPIRATION = 0L;
-  final static String BASEURL = "http://bbtfr.github.io/MerusutoChristina/data/";
-  final static String BASEURL_RETRY = "http://merusuto.gitcafe.io/data/";
+  final static String BASEURL = "http://merusuto.oschina.io/data/";
+  final static String BASEURL_RETRY = "https://merusuto.github.io/data/";
   private static Bitmap mDefaultThumbnail;
 
   interface DataHandler {

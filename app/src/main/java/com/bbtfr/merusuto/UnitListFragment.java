@@ -566,7 +566,7 @@ public class UnitListFragment extends Fragment {
 
           textView = (TextView) convertView.findViewById(R.id.text_1);
           textView.setText(String.format("攻距: %d\n韧性: %d\n移速: %d\n溅射距离: %d",
-                  item.aarea, item.tenacity,item.mspd,item.sarea));
+                  item.aarea, item.tenacity, item.mspd, item.sarea));
 
           textView = (TextView) convertView.findViewById(R.id.text_2);
           textView.setText(String.format("攻数: %d\n多段: %d\n皮肤: %s\n攻速: %.2f",
@@ -576,25 +576,6 @@ public class UnitListFragment extends Fragment {
           textView.setText(String.format("技能: %s\n极限: %s\n技能CD: %d\n技能SP: %d",
                   item.getSkillShortString(),  UnitItem.getSkillString(item.sklmax), item.sklcd, item.sklsp));
           textView.setVisibility(View.VISIBLE);
-		  
-		 /* textView = (TextView) convertView.findViewById(R.id.text_9);
-		  textView.setText(String.format("位置: %s",
-			item.obtain));
-		  textView.setVisibility(View.VISIBLE);*/
-			  
-		  /*
-          textView = (TextView) convertView.findViewById(R.id.text_2);
-          textView.setText(String.format("攻速: %.2f\n韧性: %d\n移速: %d\n皮肤: %s",
-              item.aspd, item.tenacity, item.mspd, item.getSkinString()));
-
-          textView = (TextView) convertView.findViewById(R.id.text_3);
-          textView.setText(String.format("技能SP: %d\n技能CD: %d\n技能: %s",
-              item.sklsp, item.sklcd, item.getSkillShortString()));
-
-          textView = (TextView) convertView.findViewById(R.id.text_4);
-          textView.setText(String.format("\n\nDPS: %d\n总DPS: %d",
-              item.getDPS(mLevelMode), item.getMultDPS(mLevelMode)));*/
-
           break;
       }
 
